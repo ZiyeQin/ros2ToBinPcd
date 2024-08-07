@@ -10,18 +10,18 @@ This repo is for converting ros2bag Lidar data to .bin and .pcd data with UTC ti
 ## Usage
 1. Clone the repo
    
-`git clone https://github.com/ZiyeQin/ros2ToBinPcd.git`
+   `git clone https://github.com/ZiyeQin/ros2ToBinPcd.git`
 
 3. Convert the ros2bag to .bin
    
-`python3 rosbag2bin.py`
+   `python3 rosbag2bin.py`
 
 *You can find the .csv file in the folder with UTC timestamp for each .bin file.*
 
 3. .bin visualization (optional)
    
-`python3 binVisualization.py`
+   `python3 binVisualization.py`
 
 5. Convert the .bin to .pcd
    
-`python3 bin2pcdVisualization.py`
+   `python3 bin2pcdVisualization.py`
