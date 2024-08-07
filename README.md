@@ -1,6 +1,6 @@
 # :zzz: ros2ToBinPcd
 
-![Static Badge](https://img.shields.io/badge/Repo-ros2BinPCd-royalblue)
+![Static Badge](https://img.shields.io/badge/Repo-ros2BinPcd-royalblue)
 ![GitHub watchers](https://img.shields.io/github/watchers/ZiyeQin/ros2ToBinPcd)
 
 This repo is for converting ros2bag Lidar data to .bin and .pcd data with UTC timestamps!
