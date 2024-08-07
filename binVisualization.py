@@ -1,10 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 def read_bin_file(filename):
     """Reads .bin file and returns numpy array of points."""
-    print(np.fromfile(filename, dtype=np.float32))
+    
     points = np.fromfile(filename, dtype=np.float32).reshape(-1, 4)
     return points
 
