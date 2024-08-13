@@ -28,4 +28,12 @@ This repo is for converting ros2bag(.db3) Lidar data to .bin and .pcd data with 
 
 5. Convert the .bin to .pcd
    
-   `python3 bin2pcdVisualization.py`
+   `python3 bin2pcd.py`
+
+6. .pcd visualization (optional)
+   
+   `python3 pcdVisualization.py`
+
+<!-- ## Contact
+
+- Ziye Qin: ziyeq@ucr.edu -->
