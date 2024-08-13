@@ -34,8 +34,8 @@ def convert_all_bin_in_directory(bin_dir, pcd_dir):
             print(f"Converted {bin_file} to {pcd_file}")
 
 # Example
-bin_dir = '/home/ziye/ZiyeApp/CooperDetProject/UCRDaRLi/PcdData'  # e.g. '/home/bin_files/'
-pcd_dir = '/home/ziye/ZiyeApp/CooperDetProject/UCRDaRLi/LidarPcd'  # e.g. '/home/pcd_files/'
+bin_dir = 'YOUR/PATH'  # e.g. '/home/bin_files/'
+pcd_dir = 'YOUR/PATH'  # e.g. '/home/pcd_files/'
 convert_all_bin_in_directory(bin_dir, pcd_dir)
 
 
